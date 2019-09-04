@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Play&display=swap');
+* {
+  box-sizing: border-box;
+  color: black;
+  font-family: 'Play', sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding: 5em;
+  width: 960px;
+  margin: 30px auto;
+}
+  .front-card {
+    margin: 10% auto;
+    padding: 20px;
+    color: white;
+    max-width: 450px;
+    height: 235px;
+    border-radius: 20px;
+    background: linear-gradient(60deg, #6e00db ,#cb3f4d);
+    }
+    #globe {
+      float: right;
+      margin-top: -1.7em;
+      margin-right: .2em;
+      font-size: 1.6em;
+    }
+
+    #chip {
+      width: 50px;
+      height: 50px;
+      margin-top: 2.3em;
+      margin-left: .4em;
+      background: url(masterimage.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .card-info p {
+        text-align: justify;
+        display: flex;
+    }
+      #no {
+        font-size: 1.25em;
+        font-family: 'Cutive Mono';
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 1px rgba(black, .3);
+      }
+      #name {
+        font-family: 'Cutive Mono';
+        font-weight: bold;
+        font-size: 1.3em;
+        margin-top: -.5em;
+      }
+      #Valid Thru {
+        position: relative;
+        left: 11.5em;
+        bottom: 3em;
+        font-size: .8em;
+        opacity: .9;
+      }
+    
+    #mastercard {
+      float: right;
+      margin-top: -6.3em;
+      background: url('http://www.pngall.com/wp-content/uploads/2016/07/Mastercard-PNG-Clipart.png');
+      width: 80px;
+      height: 65px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    display: flex;
+      background-position: center;
+    }
+
+  
